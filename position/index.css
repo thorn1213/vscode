@@ -19,14 +19,14 @@
 
 /* exo 2 */
 
-#first{
+#f1{
     border: 1px black solid;
     background-color: green;
     padding: 80px;
     margin: 100px;
 }
 
-#second{
+#s2{
     border: 1px black solid;
     background-color: blue;
     padding: 80px;
@@ -34,10 +34,35 @@
     left: 150px;
 }
 
-#third{
+#t3{
     border: 1px black solid;
     background-color: chocolate;
     padding: 80px;
     position: relative;
     right: 400px;
+}
+
+/* exo3 */
+
+#f4{
+    border: 1px black solid;
+    background-color: green;
+    padding: 80px;
+    margin: 100px;
+}
+
+#s5{
+    border: 1px black solid;
+    background-color: blue;
+    padding: 80px;
+    position: relative;
+}
+
+#t6{
+    border: 1px black solid;
+    background-color: chocolate;
+    padding: 80px;
+    position: absolute;
+    top: 300px;
+    left: 400px;
 }
