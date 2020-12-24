@@ -1,3 +1,9 @@
+hr{
+    margin-top: 600px;
+    margin-bottom: 600px;
+}
+
+
 #first{
     border: 1px black solid;
     background-color: green;
@@ -65,4 +71,39 @@
     position: absolute;
     top: 300px;
     left: 400px;
+}
+
+/* exo 4 */
+
+#f7{
+    border: 1px black solid;
+    background-color: lightskyblue;
+    padding: 40px;
+    position: relative;
+}
+
+#s8{
+    border: 1px black solid;
+    background-color: green;
+    padding: 40px;
+    margin-left: 620px;
+    margin-right: 620px;
+    position: relative;
+    top: 300px;
+}
+
+#t9{
+    border: 1px black solid;
+    background-color: blue;
+    padding: 40px;
+    position: relative;
+}
+
+#f10{
+    border: 1px black solid;
+    background-color: chocolate;
+    padding: 40px;
+    position: absolute;
+    top: 300px;
+    left: 300px;
 }
