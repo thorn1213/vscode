@@ -1,8 +1,11 @@
+/* -------------------- gestion de la taille du texte est suppression des bordures exterieures blanches et moche ----------- */
 body{
     font-size: 1.2em;
     margin: 0px;
     padding: 0px;
 }
+
+/*--------------------------------------- gestion du header ---------------------------------------- */
 
 header{
     background-color: red;
@@ -16,29 +19,6 @@ nav{
     display: flex;
     align-items: center;
     flex-flow: column wrap;
-}
-
-.aside1{
-    background-color: yellow;
-}
-
-.aside2{
-    background-color: plum;
-}
-
-aside{
-    padding: 150px;
-    padding-bottom: 300px;
-    font-weight: bold;
-}
-
-p{
-    padding: 10px;
-}
-
-div{
-    background-color: lightskyblue;
-    display: flex;
 }
 
 li{
@@ -62,6 +42,35 @@ ul{
     flex-direction: row;
     justify-content: stretch;
 }
+
+/* ---------------------- dimensionnement des aside(s) ---------------- */
+
+.aside1{
+    background-color: yellow;
+}
+
+.aside2{
+    background-color: plum;
+}
+
+aside{
+    padding: 150px;
+    padding-bottom: 300px;
+    font-weight: bold;
+}
+
+/* ----------------------------- gestion des <p> ---------------------------- */
+
+p{
+    padding: 10px;
+}
+
+div{
+    background-color: lightskyblue;
+    display: flex;
+}
+
+    /*--------------------------------- le footer ------------------------------- */
 
 footer{
     background-color: lightgreen;

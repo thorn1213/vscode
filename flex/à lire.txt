@@ -1,0 +1,11 @@
+tester sur w3c :
+
+1 warning :
+
+"This document appears to be Lorem ipsum text but the html start tag has lang="en". Consider using lang="zxx" (or variant) instead.
+
+From line 1, column 16; to line 2, column 16
+
+TYPE html>↩<html lang="en">↩<head"
+
+bon j'avoue je sais quoi en faire alors je laisse tel quel...
