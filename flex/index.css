@@ -1,10 +1,15 @@
+body{
+    font-size: 1.2em;
+    margin: 0px;
+    padding: 0px;
+}
+
 header{
     background-color: red;
-    box-sizing: border-box;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    padding: ;
+    padding-bottom: 10px;
 }
 
 nav{
@@ -24,6 +29,7 @@ nav{
 aside{
     padding: 150px;
     padding-bottom: 300px;
+    font-weight: bold;
 }
 
 div{
@@ -33,7 +39,9 @@ div{
 
 footer{
     background-color: lightgreen;
-    margin: 0px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 li{
