@@ -164,7 +164,7 @@ hr{
     background-color: lightskyblue;
     border: 1px black solid;
     box-sizing: border-box;
-    padding: 5px; 
+    padding: 5px;
     margin: 0 600px;
 }
 
@@ -208,4 +208,40 @@ hr{
     position: relative;
     bottom: 80px;
     right: 340px;
+}
+
+/* exo 7 */
+
+#r21{
+background-color: green;
+display: inline;
+padding: 80px;
+float: left;
+}
+
+#r22{
+    background-color: blue;
+    display: inline;
+    padding: 80px;
+    float: left;
+}
+
+#r23{
+    background-color: chocolate;
+    padding: 80px;
+    clear: both;
+}
+
+#r24{
+background-color: gray;
+display: inline;
+padding: 80px;
+float: right;
+}
+
+#r25{
+    background-color: yellow;
+    display: inline;
+    padding: 80px;
+    float: right;
 }
