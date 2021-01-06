@@ -158,5 +158,54 @@ hr{
     bottom: -1px;
 }
 
-/* exo 5 */
+/* exo 6 */
 
+#r16{
+    background-color: lightskyblue;
+    border: 1px black solid;
+    box-sizing: border-box;
+    padding: 5px; 
+    margin: 0 600px;
+}
+
+#r16 div{
+    margin: 0px 500px;
+}
+
+#r17{
+    background-color: green;
+    border: 1px black solid;
+    padding: 40px;
+    position: relative;
+    top: 30px;
+    right: 450px;
+}
+
+#r18{
+    background-color: blue;
+    border: 1px black solid;
+    z-index: 7;
+    padding: 40px;
+    position: relative;
+    bottom: 15px;
+    right: 420px;
+}
+
+#r19{
+    background-color: chocolate;
+    border: 1px black solid;
+    z-index: 3;
+    padding: 40px;
+    position: relative;
+    bottom: 40px;
+    right: 370px;
+}
+
+#r20{
+    background-color: yellow;
+    border: 1px black solid;
+    padding: 40px;
+    position: relative;
+    bottom: 80px;
+    right: 340px;
+}
