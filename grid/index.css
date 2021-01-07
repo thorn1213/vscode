@@ -1,0 +1,73 @@
+ul,li{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: repeat(18, 50px);
+    grid-template-areas: 
+    "w00 w01 w01 w01 w01 w02 w02 w02 w02 w02 w02 w02 w02 w03 y00"
+/*  "w00 b00 b00 b00 b00 w04 w04 w04 w04 b01 b01 b01 b01 w03 y00" */
+/*  "w00 b00 b00 b00 b00 w04 w04 w04 w04 b01 b01 b01 b01 w03 y00" */
+/*  "bl0 w05 w05 bl1 " */
+    ;
+}
+
+#white{
+    grid-area: w00;
+    border: 5px black solid;
+}
+
+#white1{
+    grid-area: w01;
+    border: 5px black solid;
+}
+
+#white2{
+    grid-area: w02;
+    border: 5px black solid;
+}
+
+#white3{
+    grid-area: w03;
+    border: 5px black solid;
+}
+
+#white4{
+    grid-area: w04;
+    border: 5px black solid;
+}
+
+#blue{
+    grid-area: b00;
+    background-color: blue;
+    border: 5px black solid;
+}
+
+#blue1{
+    grid-area: b01;
+    background-color: blue;
+    border: 5px black solid;
+}
+#black{
+    grid-area: bl0;
+    background-color: black;
+    border: 5px black solid;
+}
+#black1{
+    grid-area: bl1;
+    background-color: black;
+    border: 5px black solid;
+}
+
+#yellow{
+    grid-area: y00;
+    background-color: yellow;
+    border: 5px black solid;
+}
+
+
+
