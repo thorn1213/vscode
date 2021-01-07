@@ -6,13 +6,17 @@ ul,li{
 
 #grid{
     display: grid;
-    grid-template-columns: repeat(17, 1fr);
-    grid-template-rows: repeat(18, 50px);
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(17, 50px);
     grid-template-areas: 
-    "w00 w01 w01 w01 w01 w02 w02 w02 w02 w02 w02 w02 w02 w03 y00"
-/*  "w00 b00 b00 b00 b00 w04 w04 w04 w04 b01 b01 b01 b01 w03 y00" */
-/*  "w00 b00 b00 b00 b00 w04 w04 w04 w04 b01 b01 b01 b01 w03 y00" */
-/*  "bl0 w05 w05 bl1 " */
+    "w00 w01 w01 w01 w01 w02 w02 w02 w02 w02 w02 w02 w02 w02 w02 w02 w03 y00"
+    "w00 b00 b00 b00 b00 b00 b00 w04 w04 b01 b01 b01 b01 b01 b01 b01 w03 y00"
+    "w00 b00 b00 b00 b00 b00 b00 w04 w04 b01 b01 b01 b01 b01 b01 b01 w03 y00"
+    "bl0 w05 w05 bl1 w06 w06 w07 y01 y01 r00 r00 r00 r00 r00 r00 r01 w03 y00"
+    "bl0 w05 w05 bl1 w06 w06 w07 y01 y01 r00 r00 r00 r00 r00 r00 r01 w03 y00"
+    "bl0 w05 w05 bl1 w06 w06 w07 y01 y01 r00 r00 r00 r00 r00 r00 r01 w03 y00"
+    "bl0 w05 w05 bl1 w06 w06 w07 y01 y01 r00 r00 r00 r00 r00 r00 r01 w03 y00"
+    "bl0 w05 w05 bl1 w06 w06 w07 y01 y01 r00 r00 r00 r00 r00 r00 r01 w03 y00"
     ;
 }
 
@@ -38,6 +42,21 @@ ul,li{
 
 #white4{
     grid-area: w04;
+    border: 5px black solid;
+}
+
+#white5{
+    grid-area: w05;
+    border: 5px black solid;
+}
+
+#white6{
+    grid-area: w06;
+    border: 5px black solid;
+}
+
+#white7{
+    grid-area: w07;
     border: 5px black solid;
 }
 
@@ -68,6 +87,25 @@ ul,li{
     background-color: yellow;
     border: 5px black solid;
 }
+
+#yellow1{
+    grid-area: y01;
+    background-color: yellow;
+    border: 5px black solid;
+}
+
+#red{
+    grid-area: r00;
+    background-color: red;
+    border: 5px black solid;
+}
+
+#red1{
+    grid-area: r01;
+    background-color: red;
+    border: 5px black solid;
+}
+
 
 
 
