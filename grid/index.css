@@ -17,6 +17,8 @@ ul,li{
     "bl0 w05 w05 bl1 w06 w06 w07 y01 y01 r00 r00 r00 r00 r00 r00 r01 w03 y00"
     "bl0 w05 w05 bl1 w06 w06 w07 y01 y01 r00 r00 r00 r00 r00 r00 r01 w03 y00"
     "bl0 w05 w05 bl1 w06 w06 w07 y01 y01 r00 r00 r00 r00 r00 r00 r01 w03 y00"
+    "bl0 w05 w05 bl1 y02 r02 r02 b02 b02 w08 w08 w08 w08 w08 w08 w09 bl2 bl2"
+    "bl0 w05 w05 bl1 y02 r02 r02 b02 b02 w08 w08 w08 w08 w08 w08 w09 bl2 bl2"
     ;
 }
 
@@ -60,6 +62,15 @@ ul,li{
     border: 5px black solid;
 }
 
+#white8{
+    grid-area: w08;
+    border: 5px black solid;
+}
+#white9{
+    grid-area: w09;
+    border: 5px black solid;
+}
+
 #blue{
     grid-area: b00;
     background-color: blue;
@@ -71,13 +82,27 @@ ul,li{
     background-color: blue;
     border: 5px black solid;
 }
+
+#blue2{
+    grid-area: b02;
+    background-color: blue;
+    border: 5px black solid;
+}
+
 #black{
     grid-area: bl0;
     background-color: black;
     border: 5px black solid;
 }
+
 #black1{
     grid-area: bl1;
+    background-color: black;
+    border: 5px black solid;
+}
+
+#black2{
+    grid-area: bl2;
     background-color: black;
     border: 5px black solid;
 }
@@ -94,6 +119,12 @@ ul,li{
     border: 5px black solid;
 }
 
+#yellow2{
+    grid-area: y02;
+    background-color: yellow;
+    border: 5px black solid;
+}
+
 #red{
     grid-area: r00;
     background-color: red;
@@ -102,6 +133,12 @@ ul,li{
 
 #red1{
     grid-area: r01;
+    background-color: red;
+    border: 5px black solid;
+}
+
+#red2{
+    grid-area: r02;
     background-color: red;
     border: 5px black solid;
 }
