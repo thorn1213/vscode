@@ -1,0 +1,47 @@
+body{
+    background-image: url(../img/code_binaire.jpg);
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Tahoma';
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.contact,#bottom{
+    border: 5px solid rgb(31, 29, 29);
+    background-color: rgb(31, 29, 29);
+    box-shadow: 8px 4px 10px rgb(82, 80, 80), 4px 8px 10px rgb(82, 80, 80), 10px 10px 12px rgb(82, 80, 80);
+    border-radius: 20px;
+    padding:0.5em;
+    margin-bottom: 2.5em;
+    text-align: center;
+}
+
+#bottom{
+    color: white;
+    border: none;
+}
+
+#bottom a{
+    padding-top: 25px;
+    padding-right: 5px;
+    color: white;
+    text-decoration: none;
+    text-align: center; 
+}
+#bottom a:hover{
+    color: grey;
+}
+
+.return a{
+    color: white;
+}
+
+.return a:hover{
+    color: grey;
+}
+
+h2{
+    text-decoration: underline;
+}
