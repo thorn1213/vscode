@@ -6,10 +6,13 @@ ul,li{
 
 #grid{
     display: grid;
-    grid-template-columns: repeat(18, 1fr);
-    grid-template-rows: repeat(17, 50px);
+    width: 100%;
+    height: 600px;
+    border: 5px black solid;
+    margin: 0;
+    padding: 0;
     grid-template-areas: 
-    "w00 w01 w01 w01 w01 w02 w02 w02 w02 w02 w02 w02 w02 w02 w02 w02 w03 y00"
+    "w00 w01 w01 w01 w01 w01 w01 w02 w02 w02 w02 w02 w02 w02 w02 w02 w03 y00"
     "w00 b00 b00 b00 b00 b00 b00 w04 w04 b01 b01 b01 b01 b01 b01 b01 w03 y00"
     "w00 b00 b00 b00 b00 b00 b00 w04 w04 b01 b01 b01 b01 b01 b01 b01 w03 y00"
     "bl0 w05 w05 bl1 w06 w06 w07 y01 y01 r00 r00 r00 r00 r00 r00 r01 w03 y00"
@@ -19,7 +22,12 @@ ul,li{
     "bl0 w05 w05 bl1 w06 w06 w07 y01 y01 r00 r00 r00 r00 r00 r00 r01 w03 y00"
     "bl0 w05 w05 bl1 y02 r02 r02 b02 b02 w08 w08 w08 w08 w08 w08 w09 bl2 bl2"
     "bl0 w05 w05 bl1 y02 r02 r02 b02 b02 w08 w08 w08 w08 w08 w08 w09 bl2 bl2"
-    ;
+    "w13 r03 r03 bl1 y04 w12 w12 w12 w11 w11 w11 w11 w11 b03 b03 y03 w10 w10"
+    "w13 r03 r03 bl1 y04 w12 w12 w12 w11 w11 w11 w11 w11 b03 b03 y03 w10 w10"
+    "w13 r03 r03 bl1 y04 w12 w12 w12 w11 w11 w11 w11 w11 b03 b03 y03 w10 w10"
+    "w13 r03 r03 bl1 y04 w12 w12 w12 w11 w11 w11 w11 w11 b03 b03 y03 w10 w10"
+    "w15 w15 w15 w15 y04 r04 r04 bl3 bl3 bl3 bl3 bl3 bl3 w14 w14 w14 w14 w14"
+    "w15 w15 w15 w15 y04 r04 r04 bl3 bl3 bl3 bl3 bl3 bl3 w14 w14 w14 w14 w14";
 }
 
 #white{
@@ -66,8 +74,40 @@ ul,li{
     grid-area: w08;
     border: 5px black solid;
 }
+
 #white9{
     grid-area: w09;
+    border: 5px black solid;
+}
+
+#white10{
+    grid-area: w10;
+    border: 5px black solid;
+}
+
+
+#white11{
+    grid-area: w11;
+    border: 5px black solid;
+}
+
+#white12{
+    grid-area: w12;
+    border: 5px black solid;
+}
+
+#white13{
+    grid-area: w13;
+    border: 5px black solid;
+}
+
+#white14{
+    grid-area: w14;
+    border: 5px black solid;
+}
+
+#white15{
+    grid-area: w15;
     border: 5px black solid;
 }
 
@@ -85,6 +125,12 @@ ul,li{
 
 #blue2{
     grid-area: b02;
+    background-color: blue;
+    border: 5px black solid;
+}
+
+#blue3{
+    grid-area: b03;
     background-color: blue;
     border: 5px black solid;
 }
@@ -107,6 +153,12 @@ ul,li{
     border: 5px black solid;
 }
 
+#black3{
+    grid-area: bl3;
+    background-color: black;
+    border: 5px black solid;
+}
+
 #yellow{
     grid-area: y00;
     background-color: yellow;
@@ -125,6 +177,18 @@ ul,li{
     border: 5px black solid;
 }
 
+#yellow3{
+    grid-area: y03;
+    background-color: yellow;
+    border: 5px black solid;
+}
+
+#yellow4{
+    grid-area: y04;
+    background-color: yellow;
+    border: 5px black solid;
+}
+
 #red{
     grid-area: r00;
     background-color: red;
@@ -139,6 +203,18 @@ ul,li{
 
 #red2{
     grid-area: r02;
+    background-color: red;
+    border: 5px black solid;
+}
+
+#red3{
+    grid-area: r03;
+    background-color: red;
+    border: 5px black solid;
+}
+
+#red4{
+    grid-area: r04;
     background-color: red;
     border: 5px black solid;
 }
