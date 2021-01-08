@@ -245,3 +245,14 @@ float: right;
     padding: 80px;
     float: right;
 }
+
+/* exo 8 */
+
+#sticky{
+    background-color: chocolate;
+    padding: 0 20px;
+    float: left;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+}
