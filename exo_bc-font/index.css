@@ -1,0 +1,43 @@
+@font-face{
+    font-family: bangers;
+    src: url(font/Bangers/Bangers-Regular.ttf);
+}
+
+body{
+    font-family: 'Bangers', cursive;
+}
+
+.pou{
+    border:1px black solid;
+    padding: 80px;
+    background-size: cover;
+    background-position: center;
+}
+
+#div1{
+    background-image: url(img/immeuble.jpg);
+}
+
+#div2{
+    background-image: url(img/foret.jpg);
+}
+
+#div3{
+    background-image: url(img/montagne.jpg);
+}
+
+#font{
+    background-image: url(img/neige.jpg);
+    text-align: center;
+    text-shadow: 10px -1px -7px rgba(0,0, 0, 0.67);
+}
+
+#border{
+    border-top: royalblue dashed 8px;
+    border-bottom: red solid 10px;
+    border-left: green ridge 20px;
+    border-right: yellow double 15px;
+    margin: auto;
+    padding: 150px;
+    
+}
