@@ -31,19 +31,12 @@ strong{
     color:steelblue;
 }
 
-img{
-    width: 250px;
-    height: 260px;
-    border: 3px solid black;
-    margin: 16px;
-}
-
 a{
     color: white;
 }
 
 a:hover{
-    color: grey;
+    color: rgb(196, 164, 164);
 }
 
 .retour{
@@ -104,11 +97,11 @@ div h1{
     display: block; 
     text-decoration: none;
     color: whitesmoke;
-    text-decoration: underline white;
+    text-decoration: underline;
 }
 
 .nav a:hover{
-    color: grey;
+    color: rgb(196, 164, 164);
 }
 
 .form{
@@ -117,6 +110,13 @@ div h1{
 
 .int{
     list-style-position: inside;  
+    list-style: none;
+}
+
+.int > li::before{
+    content: "\2014";
+    position: absolute;
+    margin-left: -30px;
 }
 
 .exp{
@@ -149,5 +149,52 @@ div h1{
 }
 
 .bottom a:hover{
-    color: grey;   
+    color: rgb(196, 164, 164);   
+}
+
+img{
+    height: 250px;
+    width: 260px;
+    margin: 16px;
+    border: 3px solid black;
+}
+
+#overlay{
+    box-shadow: none;
+    height: 260px;
+    width: 270px;
+    margin: 0;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+#img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#desc,#desc1{
+    background-color: rgba(255, 255, 255,0.4);
+    padding: 5px 0px;
+    height: 400px;
+    border-radius: 0;
+    color: black;
+    border: none;
+    text-align: center;
+}
+
+img:hover +#desc{
+    position: relative;
+    bottom: 60px;
+    left: 15px;
+    z-index: 2;
+}
+
+img:hover +#desc1{
+    position: relative;
+    bottom: 90px;
+    left: 15px;
+    z-index: 2;
 }
