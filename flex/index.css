@@ -1,47 +1,58 @@
 /* -------------------- gestion de la taille du texte est suppression des bordures exterieures blanches et moche ----------- */
-body{
-    font-size: 1.2em;
-    margin: 0px;
-    padding: 0px;
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+h2{
+    text-align: center;
 }
 
 /*--------------------------------------- gestion du header ---------------------------------------- */
 
-header{
+header {
     background-color: red;
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    padding-bottom: 10px;
-}
-
+    flex: 2;
+  }
+  
+h1{
+    padding-top: 15px;
+  }
+  
 nav{
     display: flex;
-    align-items: center;
-    flex-flow: column wrap;
-}
-
-li{
-    list-style: none;
-}
-
-a{
-    color: black;
-    text-decoration: none;
-    border: 1px black solid;
-    padding: 10px;
-    padding-left: 113px;
-    padding-right: 115px;
-}
-
+    flex-direction:column;
+    text-align: center;
+    width: 100%;
+  }
+  
 ul{
-    margin: 0px;
-    padding: 0px;
-    background-color: red;
     display: flex;
-    flex-direction: row;
-    justify-content: stretch;
-}
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+  }
+  
+a{
+    text-decoration:none;
+    color: black;
+    display:block;
+    flex:1;
+    text-align: center;
+    border: 1px solid black;
+  }
 
 /* ---------------------- dimensionnement des aside(s) ---------------- */
 
@@ -54,18 +65,15 @@ ul{
 }
 
 aside{
-    padding: 150px;
+    flex: 1;
+    padding: 100px;
     padding-bottom: 300px;
     font-weight: bold;
 }
 
 /* ----------------------------- gestion des <p> ---------------------------- */
 
-p{
-    padding: 10px;
-}
-
-div{
+div{flex: 14;
     background-color: lightskyblue;
     display: flex;
 }
@@ -73,8 +81,10 @@ div{
     /*--------------------------------- le footer ------------------------------- */
 
 footer{
+    flex: 2;
+    display: flex;
     background-color: lightgreen;
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    flex-direction: column;
+
 }
