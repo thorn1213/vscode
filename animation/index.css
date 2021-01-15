@@ -211,7 +211,7 @@ p{
 #carroussel {
     width: 50px;
     height: 50px;
-    margin: 100px auto;
+    margin: 50px auto;
     position: relative;
     transform-style: preserve-3d;
     animation: move 15s infinite linear;
@@ -235,8 +235,8 @@ img:nth-child(9) {transform: rotateY(-320deg)translateZ(70px);}
 
 @keyframes move{
     0%{transform: rotateY(0deg);top: 0;left: 0;}
-    25%{transform: rotateY(90deg);top: 0;left: 100px;}
-    50%{transform: rotateY(180deg);top: 300px;left: 100px;}
+    25%{transform: rotateY(90deg);top: 0;left: 1000px;}
+    50%{transform: rotateY(180deg);top: 300px;left: 1000px;}
     75%{transform: rotateY(270deg);top: 300px;left: 0;}
     100%{transform: rotateY(360deg);top: 0;left: 0;}
 }
