@@ -43,13 +43,15 @@ img{
 }
 
 @media screen and (min-width:800px){
-    #flex{
-        display: flex;
-    }
-    
     #flex div{
         border: 0;
+        padding-right: 25px;
+        padding-left: 25px;
         border-right: 1px black solid;
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     #flex div:last-child{
