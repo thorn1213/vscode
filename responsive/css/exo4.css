@@ -1,6 +1,5 @@
-body{
-    margin: 0;
-    padding: 0;
+*{
+    box-sizing: border-box;
 }
 
 div>a{
@@ -9,6 +8,56 @@ div>a{
     text-align: center;
     text-decoration: none;
     color: black;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+#intro{
+    text-align: center;
+    margin: auto;
+}
+
+#intro1{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+#intro1 p{
+    margin: 0;
+    padding: 0;
+}
+
+#intro1 a{
+    padding: 0px 20px;
+    color: black;
+    text-decoration: none;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+#welcome p{
+    margin: 0 50px;
+}
+
+#article{
+    width: 30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: lightgrey;
+    border-radius: 30px;
+}
+
+#article img{
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .cols-xs-1{
