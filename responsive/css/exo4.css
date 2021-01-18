@@ -9,6 +9,10 @@ img{
     width: 100px;
 }
 
+#ham{
+    display: none;
+}
+
 #intro{
     text-align: center;
     margin: auto;
@@ -17,6 +21,7 @@ img{
 #intro1{
     text-align: center;
     margin: 0 auto;
+    flex-wrap: nowrap;
     margin-top: 15px;
 }
 
@@ -222,7 +227,19 @@ div>a{
 }
 
 @media screen and (max-width:350px){
+    #ham{
+        display: block;
+    }
     
+    #ham img{
+        height: 30px;
+        width: 30px;
+        float: right;
+    }
+
+    #intro1{
+        display: none;
+    }
 
     .cols-sm-1{
         width: calc(100%/12);
