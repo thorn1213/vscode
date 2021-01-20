@@ -1,19 +1,20 @@
 body{
     margin: 0;
     padding: 0;
+    min-width: 320px;
     background-color: burlywood;
     color: darkgoldenrod;
 }
 
 
 img{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
 }
 
 #temp{
     display: flex;
-    flex: row wrap;
+    flex: row nowrap;
 }
 
 #hov{
@@ -25,8 +26,8 @@ img{
 #flex div{
     margin: 0 5px;
     padding: 0;
-    border-top: 1px black solid;
-    border-bottom: 3px black solid;
+    border-top: 3px black solid;
+    border-bottom: 1px black solid;
     display: flex;
     justify-content: space-between;
 }
@@ -42,7 +43,7 @@ img{
     color: black;
 }
 
-@media screen and (min-width:800px){
+@media screen and (min-width:1100px){
     #flex div{
         border: 0;
         width: 13%;
